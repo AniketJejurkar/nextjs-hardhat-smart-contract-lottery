@@ -1,0 +1,26 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "This is the backend of Raffle application",
+    "main": "index.js",
+    "author": "Aniket Jejurkar",
+    "license": "MIT",
+    "dependencies": {
+        "@chainlink/contracts": "^1.2.0",
+        "@nomiclabs/hardhat-waffle": "^2.0.1",
+        "ethereum-waffle": "^3.4.0",
+        "@nomicfoundation/hardhat-ethers": "^3.0.2",
+        "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+        "@nomiclabs/hardhat-etherscan": "^3.1.8",
+        "chai": "4.3.4",
+        "dotenv": "^16.4.5",
+        "ethers": "^6.13.2",
+        "hardhat": "^2.22.10",
+        "hardhat-deploy": "^0.12.4",
+        "hardhat-gas-reporter": "^2.2.1",
+        "prettier": "^3.3.3",
+        "prettier-plugin-solidity": "^1.4.1",
+        "solhint": "^5.0.3",
+        "solidity-coverage": "^0.8.13"
+    }
+}

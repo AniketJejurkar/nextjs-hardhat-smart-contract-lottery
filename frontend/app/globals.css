@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+CU:wght@100..400&family=Roboto+Slab:wght@100..900&family=Satisfy&display=swap");
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alignCenter {
+  align-items: center;
+}
+#header {
+  font-family: "Playwrite CU", cursive;
+  font-weight: 600;
+  /* font-style: italic; */
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.RaffleBtn {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  margin: 10px 10px;
+  /* border: 1px solid darkblue; */
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.infoClass {
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  font-weight: 400;
+}
